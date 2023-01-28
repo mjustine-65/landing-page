@@ -95,7 +95,116 @@ a {
     color: #FDFCFC;
     cursor: pointer;
     background-color: #F35B25;
-    padding: .5em;
+    padding: .5em 1.5rem;
     border: none;
     border-radius: .5em;
+}
+
+.feats {
+    max-width: 83.33vw;
+    color: #2A3356;
+    padding: 6rem 0;
+    margin: 0 auto;
+}
+
+.feats__ttl {
+    text-align: center;
+    font-family: 'inter', sans-serif;
+    font-size: 2.369rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.feats__list {
+    width: 83.33%;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0 auto;
+}
+
+.feats__list-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    border: 2px solid #2A3356;
+    border-radius: .5em;
+}
+
+.feats__list-text {
+    text-align: center;
+    font-family: 'inter', sans-serif;
+    font-size: 1rem;
+}
+
+.quotes {
+    max-width: 83.33vw;
+    background-color: #E8E2E2;
+    padding: 6rem 0;
+    box-shadow: 0 0 0 100vmax #E8E2E2;
+    clip-path: inset(0 -100vmax);
+    margin: 0 auto;
+}
+
+.quotes__text {
+    width: 83.33%;
+    font-family: 'Inter', sans-serif;
+    font-size: 2.369rem;
+    font-weight: 300;
+    font-style: italic;
+    margin: 0 auto;
+}
+
+.quotes__sub-text {
+    display: block;
+    text-align: right;
+    font-size: 1.333rem;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.main-footer {
+    max-width: 83.33vw;
+    padding: 6rem 0;
+    margin: 0 auto;
+}
+
+.newsletter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: #F35B25;
+    padding: 3rem 6rem;
+    border-radius: .5em;
+}
+
+.newsletter__ttl {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.777rem;
+    font-weight: 500;
+}
+
+.newsletter__text {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+}
+
+.newsletter__btn {
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    background-color: transparent;
+    padding: .5em 1.5rem;
+    border: 2px solid white;
+    border-radius: .5em;
+}
+
+.footer {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    color: white;
+    background-color: #2A3356;
+    padding: 1.5rem 0;
 }
