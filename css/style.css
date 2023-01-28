@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* css simple reset */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* outline: 2px dashed red; */
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.header {
+    color: #FDFCFC;
+    background-color: #2A3356;
+}
+
+.header-navbar {
+    max-width: 83.33vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    margin: 0 auto;
+}
+
+.header-navbar__brand {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.777rem;
+    color: #FDFCFC;
+}
+
+.header-navbar__nav {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.header-navbar__nav a {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    color: #FDFCFC;
+}
+
+.header-content {
+    max-width: 83.33vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1.5rem;
+    padding: 3rem 0;
+    margin: 0 auto;
+}
+
+.header-content > * {
+    flex: 1 0 200px;
+}
+
+.header-content__img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.header-content__left-sect {
+    align-self: center;
+}
+
+.header-content__ttl {
+    font-family: 'Inter', sans-serif;
+    font-size: 3.157rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.header-content__sub-ttl {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.333rem;
+    font-weight: 400;
+    opacity: 0.5;
+    margin-bottom: 1rem;
+}
+
+.header-content__btn {
+    width: max-content;
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-size: 1em;
+    color: #FDFCFC;
+    cursor: pointer;
+    background-color: #F35B25;
+    padding: .5em;
+    border: none;
+    border-radius: .5em;
+}
